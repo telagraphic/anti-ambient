@@ -1,0 +1,24 @@
+@import '../config/functions';
+@import '../config/mixins';
+@import '../config/variables';
+
+
+.sound-grid {
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+}
+
+.sound-box {
+  display: grid;
+  justify-items: center;
+
+
+  &__artwork {
+    width: 25%;
+  }
+}

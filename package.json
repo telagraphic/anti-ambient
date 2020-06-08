@@ -1,0 +1,31 @@
+{
+  "name": "anti-ambient",
+  "version": "1.0.0",
+  "description": "inverted white noise generator",
+  "main": "index.js",
+  "scripts": {
+    "dev:scss": "node-sass --output-style nested -o css scss/styles.scss",
+    "dev:watch": "onchange 'scss' -- npm run dev:scss",
+    "dev:serve": "browser-sync start --server --ss 'views' --files 'scss/**/*.scss,  'views/*.html', ./*.html, js/*.js'",
+    "server": "run-p dev:watch dev:serve",
+    "build:dist": "mkdir -p dist/{css,js,img,fonts}",
+    "build:html": "html-minifier --input-dir './views' --output-dir ./dist --collapse-whitespace",
+    "build:css": "postcss -u autoprefixer -o dist/css/styles.css css/*.css",
+    "build:js": "cp js/* dist/js",
+    "build:fonts": "cp fonts/* dist/fonts",
+    "build:img": "cp img/* dist/img",
+    "build": "run-s build:*"
+  },
+  "keywords": [],
+  "author": "telagraphic",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "html-minifier": "^4.0.0",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.0.2",
+    "postcss-cli": "^7.1.1"
+  }
+}
