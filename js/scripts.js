@@ -32,29 +32,46 @@ let select = e => document.querySelector(e);
 let selectAll = e => document.querySelectorAll(e);
 const fadeTimeout = 1000;
 
-function setupSoundButtons() {
-  document.querySelector(".sound-grid__container").addEventListener("click", event => {
-    if (event.target && event.target.matches("section.sound-box")) {
-      //TODO: Header and Artwork are not triggering the click when clicked
-      let buttonSound = event.target.dataset.sound;
-      let currentVolume = event.target.querySelector('.sound-box__volume-slider').dataset.volume;
+const allButtons = selectAll('.sound-box');
 
-      if (soundboardAudio[buttonSound].sound.playing()) {
-        soundboardAudio[buttonSound].sound.fade(currentVolume, 0, fadeTimeout);
+allButtons.forEach(button => {
+  button.addEventListener('click', setupSoundButtons);
+});
 
-        setTimeout(function() {
-          soundboardAudio[buttonSound].sound.stop();
-        }, fadeTimeout);
 
-      } else {
-        soundboardAudio[buttonSound].sound.play();
-        soundboardAudio[buttonSound].sound.fade(0, currentVolume, 1000);
+function setupSoundButtons(event) {
+  // console.log(event.target);
+  let buttonSound = event.currentTarget.dataset.sound;
+  let currentVolume = event.currentTarget.querySelector('.sound-box__volume-slider').dataset.volume;
 
-        console.log(soundboardAudio[buttonSound].sound.playing());
-        console.log("stop", currentVolume);
-      }
-    }
-  });
+  if (event.target.matches('.sound-box__volume') || event.target.matches('.sound-box__volume-slider')) {
+    console.log(event.target);
+    return;
+  }
+
+  if (soundboardAudio[buttonSound].sound.playing()) {
+    soundboardAudio[buttonSound].sound.fade(currentVolume, 0, fadeTimeout);
+
+    setTimeout(function() {
+      soundboardAudio[buttonSound].sound.stop();
+    }, fadeTimeout);
+
+    console.log("playing", currentVolume);
+
+    event.currentTarget.querySelector('.sound-box__header').style.opacity = 0;
+    event.currentTarget.querySelector('.sound-box__icon').style.opacity = 1;
+    event.currentTarget.querySelector('.sound-box__volume').style.opacity = 0;
+  } else {
+    soundboardAudio[buttonSound].sound.play();
+    soundboardAudio[buttonSound].sound.fade(0, currentVolume, 1000);
+
+    console.log(soundboardAudio[buttonSound].sound.playing());
+    console.log("stop", currentVolume);
+
+    event.currentTarget.querySelector('.sound-box__header').style.opacity = 1;
+    event.currentTarget.querySelector('.sound-box__icon').style.opacity = 0.1;
+    event.currentTarget.querySelector('.sound-box__volume').style.opacity = 1;
+  }
 }
 
 function setupVolumeSliders() {
@@ -81,6 +98,9 @@ function setupStopButton() {
     });
   })
 };
+
+
+
 
 setupStopButton();
 setupVolumeSliders();
