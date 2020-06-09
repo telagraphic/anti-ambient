@@ -32,20 +32,19 @@ let select = e => document.querySelector(e);
 let selectAll = e => document.querySelectorAll(e);
 const fadeTimeout = 1000;
 
-const allButtons = selectAll('.sound-box');
+function setupSoundButtons() {
+  const allButtons = selectAll('.sound-box');
 
-allButtons.forEach(button => {
-  button.addEventListener('click', setupSoundButtons);
-});
+  allButtons.forEach(button => {
+    button.addEventListener('click', toggleButtonSounds);
+  });
+}
 
-
-function setupSoundButtons(event) {
-  // console.log(event.target);
+function toggleButtonSounds(event) {
   let buttonSound = event.currentTarget.dataset.sound;
   let currentVolume = event.currentTarget.querySelector('.sound-box__volume-slider').dataset.volume;
 
   if (event.target.matches('.sound-box__volume') || event.target.matches('.sound-box__volume-slider')) {
-    console.log(event.target);
     return;
   }
 
@@ -92,16 +91,22 @@ function setupStopButton() {
   stopButton.addEventListener('click', function(event) {
     Howler.stop();
 
-    let soundButtonVolumeSliders = selectAll('.sound-box__volume-slider');
-    soundButtonVolumeSliders.forEach(slider => {
-      slider.dataset.volume = .5;
+    let soundButtons = selectAll('.sound-box');
+    soundButtons.forEach(button => {
+      button.querySelector('.sound-box__header').style.opacity = 0;
+      button.querySelector('.sound-box__icon').style.opacity = 1;
+      button.querySelector('.sound-box__volume').style.opacity = 0;
+      button.querySelector('.sound-box__volume-slider').dataset.volume = ".5";
+
+      setTimeout(function() {
+        button.querySelector('.sound-box__volume-slider').value = .5;
+      }, 1500);
+
     });
-  })
+  });
 };
 
 
-
-
+setupSoundButtons();
 setupStopButton();
 setupVolumeSliders();
-setupSoundButtons();
