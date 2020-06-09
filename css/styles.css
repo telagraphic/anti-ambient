@@ -318,6 +318,34 @@ body {
 
 .sound-box {
   display: grid;
-  justify-items: center; }
-  .sound-box__artwork {
+  justify-items: center;
+  z-index: 100; }
+  .sound-box__button {
+    display: grid;
+    justify-items: center;
+    align-items: center; }
+  .sound-box__header {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 66%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .55s ease-out; }
+  .sound-box__icon {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity .4s ease-in-out; }
+  .sound-box__icon-svg {
     width: 25%; }
+  .sound-box__volume {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    opacity: 0;
+    transition: opacity .4s ease-in-out; }
+  .sound-box__volume-slider {
+    width: 70%; }
