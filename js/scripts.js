@@ -40,8 +40,14 @@ allButtons.forEach(button => {
 
 
 function setupSoundButtons(event) {
+  // console.log(event.target);
   let buttonSound = event.currentTarget.dataset.sound;
   let currentVolume = event.currentTarget.querySelector('.sound-box__volume-slider').dataset.volume;
+
+  if (event.target.matches('.sound-box__volume') || event.target.matches('.sound-box__volume-slider')) {
+    console.log(event.target);
+    return;
+  }
 
   if (soundboardAudio[buttonSound].sound.playing()) {
     soundboardAudio[buttonSound].sound.fade(currentVolume, 0, fadeTimeout);
