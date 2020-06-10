@@ -1,0 +1,77 @@
+@import '../config/functions';
+@import '../config/mixins';
+@import '../config/variables';
+
+.sound-box {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  z-index: 100;
+
+  @include viewport(42rem) {
+    padding: 4% 0;
+  }
+
+  &__button {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  &__header {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    width: 66%;
+
+    text-align: center;
+
+    opacity: 0;
+
+    transition: opacity .55s ease-out;
+
+    h3 {
+
+    }
+  }
+
+
+  &__icon {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 1;
+
+    width: 35%;
+    height: 0;
+    padding-top: 34%;
+    position: relative;
+
+    transition: opacity .4s ease-in-out;
+  }
+
+  &__icon-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__volume {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+    padding: 5% 0;
+
+    opacity: 0;
+    transition: opacity .4s ease-in-out;
+  }
+
+  &__volume-slider {
+    width: 70%;
+  }
+}
