@@ -7,8 +7,25 @@
 
   &__container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
+    grid-row-gap: 5%;
+
+    width: 96%;
+
+    @include viewport(34rem) {
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 5%;
+
+      width: 89%;
+    }
+
+    @include viewport(52rem) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row-gap: 5%;
+
+      width: 89%;
+    }
   }
 
 }
@@ -16,8 +33,15 @@
 .sound-box {
   display: grid;
   justify-items: center;
+  align-items: center;
 
   z-index: 100;
+
+  @include viewport(42rem) {
+    padding: 4% 0;
+  }
+
+
 
   &__button {
     display: grid;
@@ -52,12 +76,18 @@
 
     opacity: 1;
 
-    transition: opacity .4s ease-in-out;
+    width: 35%;
+    height: 0;
+    padding-top: 34%;
+    position: relative;
 
+    transition: opacity .4s ease-in-out;
   }
 
   &__icon-svg {
-    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   &__volume {

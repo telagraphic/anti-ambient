@@ -1,5 +1,5 @@
-@mixin desktop($desktop-viewport) {
-  @media (min-width: $desktop-viewport) {
+@mixin viewport($viewport-width) {
+  @media (min-width: $viewport-width) {
     @content;
   }
 }
