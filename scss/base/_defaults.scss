@@ -3,3 +3,8 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
+
+button, input {
+  -webkit-tap-highlight-color: transparent;
+}

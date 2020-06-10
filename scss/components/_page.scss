@@ -1,3 +1,28 @@
 @import '../config/functions';
 @import '../config/mixins';
 @import '../config/variables';
+
+
+.page {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+
+
+  &__header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__main {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+
+  }
+  &__footer {
+    grid-area: footer;
+  }
+}

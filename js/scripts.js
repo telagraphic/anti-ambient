@@ -87,7 +87,7 @@ function setupVolumeSliders() {
 }
 
 function setupStopButton() {
-  const stopButton = select('.stop-button');
+  const stopButton = select('.header__stop-button');
   stopButton.addEventListener('click', function(event) {
     Howler.stop();
 
