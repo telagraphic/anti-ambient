@@ -1,7 +1,7 @@
 const soundboardAudio = {
   ocean: {
    sound: new Howl({
-     src: ['./sounds/ocean.mp3'],
+     src: ['./sounds/gentrification-construction.mp3'],
      volume: 0,
      html5: true,
      loop: true
@@ -10,7 +10,7 @@ const soundboardAudio = {
  },
  cafe: {
    sound: new Howl({
-    src: ['./sounds/cafe.mp3'],
+    src: ['./sounds/standing-rock-protest.mp3'],
     volume: 0,
     html5: true,
     loop: true
@@ -19,7 +19,7 @@ const soundboardAudio = {
   },
   wind: {
    sound: new Howl({
-     src: ['./sounds/wind.mp3'],
+     src: ['./sounds/sweat-shop.mp3'],
      volume: 0,
      html5: true,
      loop: true
