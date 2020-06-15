@@ -6,6 +6,7 @@
 .page {
   display: grid;
   grid-template-areas: "header" "main" "footer";
+  // background-color: black;
 
 
   &__header {

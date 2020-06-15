@@ -1,31 +1,94 @@
 const soundboardAudio = {
-  ocean: {
+  construction: {
    sound: new Howl({
-     src: ['./sounds/gentrification-construction.mp3'],
+     src: ['./sounds/gentrification-construction.webm','./sounds/gentrification-construction.mp3'],
      volume: 0,
      html5: true,
      loop: true
    }),
-   details: "sound details"
+   details: "gentrification construction"
  },
- cafe: {
+ protest: {
    sound: new Howl({
-    src: ['./sounds/standing-rock-protest.mp3'],
+    src: ['./sounds/standing-rock-protest.webm','./sounds/standing-rock-protest.mp3'],
     volume: 0,
     html5: true,
     loop: true
   }),
-  details: "sound details"
+  details: "standing rock protest"
   },
-  wind: {
+  sweatshop: {
    sound: new Howl({
-     src: ['./sounds/sweat-shop.mp3'],
+     src: ['./sounds/sweat-shop.webm','./sounds/sweat-shop.mp3'],
      volume: 0,
      html5: true,
      loop: true
    }),
-   details: "sound details"
-  }
+   details: "sewing sweat shop"
+ },
+  deforestation: {
+   sound: new Howl({
+     src: ['./sounds/deforestation.webm','./sounds/deforestation.mp3'],
+     volume: 0,
+     html5: true,
+     loop: true
+   }),
+   details: "rain forest deforestation"
+ },
+ oil: {
+  sound: new Howl({
+    src: ['./sounds/oil-drilling.webm','./sounds/oil-drilling.mp3'],
+    volume: 0,
+    html5: true,
+    loop: true
+  }),
+  details: "oil drilling"
+},
+landfill: {
+ sound: new Howl({
+   src: ['./sounds/landfill.webm','./sounds/landfill.mp3'],
+   volume: 0,
+   html5: true,
+   loop: true
+ }),
+ details: "landfill"
+},
+glaciers: {
+ sound: new Howl({
+   src: ['./sounds/melting-glaciers.webm','./sounds/melting-glaciers.mp3'],
+   volume: 0,
+   html5: true,
+   loop: true
+ }),
+ details: "melting glaciers"
+},
+plastic: {
+ sound: new Howl({
+   src: ['./sounds/plastic-pollution.webm','./sounds/plastic-pollution.mp3'],
+   volume: 0,
+   html5: true,
+   loop: true
+ }),
+ details: "plastic pollution"
+},
+fracking: {
+ sound: new Howl({
+   src: ['./sounds/fracking.webm','./sounds/fracking.mp3'],
+   volume: 0,
+   html5: true,
+   loop: true
+ }),
+ details: "fracking"
+},
+wildfires: {
+ sound: new Howl({
+   src: ['./sounds/wildfires.webm','./sounds/wildfires.mp3'],
+   volume: 0,
+   html5: true,
+   loop: true
+ }),
+ details: "wildfires"
+}
 }
 
 let select = e => document.querySelector(e);
