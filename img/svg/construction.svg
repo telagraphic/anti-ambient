@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g id="destruction">
+    <g id="house">
+      <polygon points="60 248.16 60 299 148.97 299 148.97 246.35 107.21 210.04 60 248.16" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+      <rect x="88.14" y="259.96" width="32.68" height="39.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+      <polygon points="47.29 231.82 107.21 184.62 163.49 231.82 148.97 246.35 107.21 210.04 60 246.35 47.29 231.82" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    </g>
+    <circle cx="131.72" cy="160.11" r="33.59" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    <line x1="138.83" y1="128" x2="163.49" y2="53.9" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    <g id="wiggles">
+      <line x1="70.15" y1="148.38" x2="87.1" y2="161.09" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      <line x1="70.28" y1="186.51" x2="90.19" y2="179.29" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      <line x1="164.76" y1="201.98" x2="180.38" y2="216.28" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+      <line x1="171.16" y1="183.39" x2="192.13" y2="180.4" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="5"/>
+    </g>
+    <rect id="tractor_wheels" data-name="tractor wheels" x="196.17" y="259.06" width="119.83" height="39.94" rx="7.74" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    <polygon id="cab" points="237.41 258.24 237.02 209.52 275.15 184.71 298.75 184.71 298.75 241.41 284.23 241.41 284.81 258.24 237.41 258.24" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    <path id="beam" d="M247,202.61,181,36.72s-5.5-7.37-12.84-3.69-7.34,9.22-7.34,9.22L219.48,245h18.35" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    <polyline points="169.84 60.25 192.13 69.83 181.65 106.86 211.75 114.19 193.54 154.74 232.07 164.98 210.4 212.71 237.02 212.71" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
