@@ -336,7 +336,7 @@ button, input {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  grid-row-gap: 5%;
+  grid-row-gap: 0%;
   width: 96%; }
   @media (min-width: 34rem) {
     .sound-grid__container {
@@ -345,9 +345,7 @@ button, input {
       width: 89%; } }
   @media (min-width: 52rem) {
     .sound-grid__container {
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-row-gap: 5%;
-      width: 89%; } }
+      grid-template-columns: 1fr 1fr 1fr; } }
 
 .sound-box {
   display: grid;

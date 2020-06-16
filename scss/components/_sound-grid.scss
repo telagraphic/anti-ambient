@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-row-gap: 5%;
+    grid-row-gap: 0%;
 
     width: 96%;
 
@@ -22,9 +22,6 @@
 
     @include viewport(52rem) {
       grid-template-columns: 1fr 1fr 1fr;
-      grid-row-gap: 5%;
-
-      width: 89%;
     }
   }
 
