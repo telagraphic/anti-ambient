@@ -1,0 +1,16 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect id="frame" x="91.5" y="167.5" width="220" height="149" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <path id="smoke" d="M63.5,85.5s-2-57,63-43,125,20,143,11" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <rect id="chimney" x="50.5" y="80.5" width="41" height="236" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <rect id="window" x="110.5" y="183.5" width="44" height="28" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <rect id="window-2" data-name="window" x="177.5" y="183.5" width="44" height="28" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <rect id="window-3" data-name="window" x="246.5" y="183.5" width="44" height="28" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <rect id="window-4" data-name="window" x="110.5" y="228.5" width="44" height="28" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <rect id="window-5" data-name="window" x="177.5" y="228.5" width="44" height="28" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <rect id="window-6" data-name="window" x="246.5" y="228.5" width="44" height="28" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <rect id="roof_box" data-name="roof box" x="269.5" y="145.5" width="21" height="21" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <g id="door">
+    <rect x="177.5" y="271.5" width="45" height="43" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+    <line x1="200.5" y1="272.5" x2="200.5" y2="314.5" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  </g>
+</svg>

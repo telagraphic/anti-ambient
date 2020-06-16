@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g id="drill">
+    <line id="earth" x1="38.85" y1="261.31" x2="317.47" y2="261.31" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline id="tower" points="223.28 260.45 197.23 92.86 171.24 92.86 143.45 260.45" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline id="zag" points="173.64 95.77 200.46 119.85 164.26 144.07 207.86 177.54 155.07 204.04 220.5 257.27" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <polyline id="zag-2" data-name="zag" points="194.96 95.77 167.14 120.42 204.54 144.3 159.97 177.92 213.94 204.55 147.05 258.02" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <polyline id="right_block" data-name="right block" points="222.56 237.66 243.05 237.66 243.05 260.45" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <polyline id="left_block" data-name="left block" points="144.63 237.66 124.14 237.66 124.14 260.45" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <polyline id="tower_top" data-name="tower top" points="171.37 90.79 171.37 66.31 196.75 66.31 196.75 93.59" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <line id="spear" x1="183.37" y1="66.31" x2="183.37" y2="24.33" stroke-width="6" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <g id="quake">
+    <polyline points="185.48 263.84 157.36 289.05 187.1 306.18 165.76 325.9 185.8 334.95 174.81 344" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <polyline points="157.36 289.05 139.05 279.68 130.97 303.92 112.87 288.41 108.99 303.92 90.25 300.04" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <polyline points="187.1 306.18 208.54 296.32 216.3 317.17 232.8 299.39 236.02 312.32 248.95 305.21" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>
