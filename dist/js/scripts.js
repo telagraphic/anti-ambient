@@ -88,6 +88,24 @@ wildfires: {
    loop: true
  }),
  details: "wildfires"
+},
+migration: {
+ sound: new Howl({
+   src: ['./sounds/migration.webm','./sounds/migration.mp3'],
+   volume: 0,
+   html5: true,
+   loop: true
+ }),
+ details: "forced migration"
+},
+notifications: {
+ sound: new Howl({
+   src: ['./sounds/notifications.webm','./sounds/notifications.mp3'],
+   volume: 0,
+   html5: true,
+   loop: true
+ }),
+ details: "device notifications"
 }
 }
 

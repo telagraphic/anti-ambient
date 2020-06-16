@@ -1,0 +1,8 @@
+<svg id="phone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <rect x="112" y="52" width="139" height="250" rx="16.85" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <line x1="251" y1="267.5" x2="112.5" y2="267.5" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <line x1="251" y1="87.5" x2="112.5" y2="87.5" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <circle cx="180" cy="284" r="8.5" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <path d="M171.5,64.5h24" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path d="M171.5,74.5h24" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>
