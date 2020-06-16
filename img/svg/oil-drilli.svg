@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g id="Layer_3" data-name="Layer 3">
+    <rect width="360" height="360"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <rect id="primary_base" data-name="primary base" x="114.66" y="293.45" width="122.77" height="23.44" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="6"/>
+    <rect id="second_base" data-name="second base" x="130.29" y="275.55" width="93.76" height="17.9" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="6"/>
+    <polygon id="top_base" data-name="top base" points="203.96 119.33 150.38 119.33 150.38 84.73 203.96 92.54 203.96 119.33" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline id="frame" points="141.45 273.36 161.54 119.33 190.56 119.33 209.54 274.47" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="6"/>
+    <polyline id="zag" points="162.66 273.36 203.96 235.45 150.38 210.85 198.38 184.06 159.31 156.16 193.01 139.31 162.85 122.62" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    <g id="pump">
+      <rect x="59.97" y="203.04" width="40.18" height="82.59" rx="18" transform="translate(202.23 18.09) rotate(46.51)" stroke-width="6" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <circle cx="94.16" cy="230.51" r="10.05" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <line x1="54.39" y1="278.94" x2="41" y2="318" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <line x1="78.95" y1="276.7" x2="91.23" y2="318" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <line x1="82.3" y1="211.97" x2="82.3" y2="76.91" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <path d="M258.65,95.89,52.16,72.45S61.09,40.08,118,51.24,258.65,76.91,258.65,76.91Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <path d="M256.41,223.13s45.77-24.56,45.77-88.18-6.7-82.59-6.7-82.59L258.65,76.91Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    </g>
+  </g>
+</svg>
