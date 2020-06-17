@@ -4,20 +4,50 @@
 
 
 .footer {
-  display: flex;
+  display: grid;
   justify-content: center;
 
   padding: 15% 0 0 0;
 
+  @include viewport(34rem) {
+    padding: 50% 0 0 0;
+  }
+
+  @include viewport(52rem) {
+    padding: 15% 0 0 0;
+  }
+
+  &__artwork {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+    opacity: 1;
+
+    padding: 5% 0 0 0;
+
+  }
+
   &__description {
-    width: 55%;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+
+    justify-self: center;
+
+    width: 89%;
     text-align: center;
+
+    z-index: 100;
+
+    @include viewport(34rem) {
+      width: 55%;
+    }
   }
 
 
   a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 
     &:hover,
     &:active {

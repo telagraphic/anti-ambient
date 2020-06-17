@@ -485,15 +485,34 @@ button, input {
     width: 70%; }
 
 .footer {
-  display: flex;
+  display: grid;
   justify-content: center;
   padding: 15% 0 0 0; }
+  @media (min-width: 34rem) {
+    .footer {
+      padding: 50% 0 0 0; } }
+  @media (min-width: 52rem) {
+    .footer {
+      padding: 15% 0 0 0; } }
+  .footer__artwork {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    opacity: 1;
+    padding: 5% 0 0 0; }
   .footer__description {
-    width: 55%;
-    text-align: center; }
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    justify-self: center;
+    width: 89%;
+    text-align: center;
+    z-index: 100; }
+    @media (min-width: 34rem) {
+      .footer__description {
+        width: 55%; } }
   .footer a {
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: bold; }
     .footer a:hover, .footer a:active {
       text-decoration: underline; }
 
