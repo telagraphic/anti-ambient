@@ -1,21 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
-  <g id="destruction">
-    <g id="house">
-      <polygon points="43.34 265.83 43.34 322 141.63 322 141.63 263.83 95.49 223.71 43.34 265.83" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-      <rect x="74.43" y="278.87" width="36.11" height="43.13" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-      <polygon points="29.29 247.78 95.49 195.62 157.68 247.78 141.63 263.83 95.49 223.71 43.34 263.83 29.29 247.78" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-    </g>
-    <circle cx="122.57" cy="168.54" r="37.11" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-    <line x1="130.43" y1="133.07" x2="157.68" y2="51.19" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-    <g id="wiggles">
-      <line x1="54.55" y1="155.59" x2="73.27" y2="169.63" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-      <line x1="54.69" y1="197.71" x2="76.69" y2="189.73" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-      <line x1="159.08" y1="214.8" x2="176.34" y2="230.61" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-      <line x1="166.15" y1="194.27" x2="189.32" y2="190.96" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-    </g>
-    <rect id="tractor_wheels" data-name="tractor wheels" x="193.78" y="277.87" width="132.39" height="44.13" rx="7.74" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-    <polygon id="cab" points="239.35 276.97 238.92 223.13 281.04 195.72 307.12 195.72 307.12 258.37 291.07 258.37 291.72 276.97 239.35 276.97" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-    <path id="beam" d="M249.94,215.5,177,32.21s-6.09-8.14-14.19-4.07-8.11,10.18-8.11,10.18l64.87,224h20.27" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
-    <polyline points="164.7 58.21 189.32 68.79 177.74 109.71 211 117.81 190.87 162.61 233.45 173.93 209.5 226.66 238.92 226.66" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+<svg id="destruction" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360">
+  <g id="house">
+    <polygon points="46.43 268.28 46.43 322 140.44 322 140.44 266.36 96.32 227.99 46.43 268.28" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+    <rect x="76.17" y="280.75" width="34.54" height="41.25" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+    <polygon points="33 251.01 96.32 201.13 155.79 251.01 140.44 266.36 96.32 227.99 46.43 266.36 33 251.01" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
   </g>
+  <circle cx="122.22" cy="175.22" r="35.5" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <line x1="129.73" y1="141.29" x2="155.79" y2="62.98" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <g id="wiggles">
+    <line x1="57.16" y1="162.83" x2="75.06" y2="176.26" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+    <line x1="57.29" y1="203.12" x2="78.34" y2="195.49" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+    <line x1="157.13" y1="219.47" x2="173.64" y2="234.59" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+    <line x1="163.9" y1="199.83" x2="186.06" y2="196.66" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  </g>
+  <rect id="tractor_wheels" data-name="tractor wheels" x="190.33" y="279.79" width="126.63" height="42.21" rx="7.74" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <polygon id="cab" points="233.91 278.93 233.5 227.44 273.79 201.22 298.73 201.22 298.73 261.14 283.38 261.14 284 278.93 233.91 278.93" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <path id="beam" d="M244,220.13l-69.8-175.3s-5.81-7.79-13.57-3.9-7.75,9.74-7.75,9.74l62,214.26h19.39" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="5"/>
+  <polyline points="162.51 69.7 186.06 79.81 174.98 118.95 206.8 126.69 187.54 169.55 228.27 180.37 205.37 230.81 233.5 230.81" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
 </svg>

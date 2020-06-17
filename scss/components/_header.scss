@@ -4,8 +4,71 @@
 
 
 .header {
+  display: flex;
+  flex-direction: column;
 
   &__title {}
   &__stop-button {}
-  
+  &__navigation {}
+
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+
+  @include viewport(35rem) {
+    padding: 2%;
+  }
+
+  @include viewport(52rem) {
+    padding: 1%;
+  }
+
+  &__link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    &:nth-of-type(1) {
+      justify-content: flex-start;
+    }
+
+    &:nth-of-type(2) {
+      justify-content: flex-end;
+    }
+  }
+
+  &__link-svg {
+    width: 20%;
+    height: 0;
+    padding-top: 15%;
+    position: relative;
+
+    @include viewport(35rem) {
+      width: 15%;
+      padding-top: 10%;
+    }
+
+
+    @include viewport(52rem) {
+      width: 10%;
+      padding-top: 3.2%;
+    }
+
+    @include viewport(70rem) {
+      width: 6%;
+      padding-top: 3.2%;
+    }
+
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
 }

@@ -1,0 +1,27 @@
+@import '../config/functions';
+@import '../config/mixins';
+@import '../config/variables';
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  padding: 15% 0 0 0;
+
+  &__description {
+    width: 55%;
+    text-align: center;
+  }
+
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover,
+    &:active {
+      text-decoration: underline;
+    }
+  }
+}
