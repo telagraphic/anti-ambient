@@ -334,10 +334,29 @@ button, input {
     grid-area: footer; }
 
 .header {
-  display: flex;
-  flex-direction: column; }
+  width: 100%; }
+  .header__description {
+    width: 100%; }
+  .header__description-logo {
+    display: flex;
+    flex-direction: column; }
+  .header__description-copy {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 0;
+    text-align: center; }
+    @media (min-width: 35rem) {
+      .header__description-copy {
+        padding: 5% 0 0 0; } }
+    .header__description-copy p {
+      width: 69%; }
+      @media (min-width: 35rem) {
+        .header__description-copy p {
+          width: 45%; } }
 
 .navigation {
+  position: fixed;
+  top: 0rem;
   display: flex;
   flex-direction: row;
   width: 100%;

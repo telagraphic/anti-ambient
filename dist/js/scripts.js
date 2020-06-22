@@ -119,6 +119,14 @@ function setupSoundButtons() {
   allButtons.forEach(button => {
     button.addEventListener('click', toggleButtonSounds);
   });
+
+  // var hammertime = new Hammer(myElement, myOptions);
+  // if (document.documentElement.clienwidth <= 600) {
+  //   allButtons.forEach(button => {
+  //     button.on('press tap', toggleButtonSounds);
+  //   });
+  // } else {
+  // }
 }
 
 function toggleButtonSounds(event) {
@@ -187,6 +195,10 @@ function setupStopButton() {
   });
 };
 
+
+
+var svg  = document.querySelector(".header__description-logo-svg");
+var wave = document.querySelector(".header__description-logo-soundwave");
 
 setupSoundButtons();
 setupStopButton();

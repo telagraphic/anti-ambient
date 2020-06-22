@@ -4,16 +4,47 @@
 
 
 .header {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
 
-  &__title {}
-  &__stop-button {}
-  &__navigation {}
+
+
+  &__description {
+    width: 100%;
+  }
+  &__description-logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__description-logo-svg {}
+  &__description-logo-soundwave {}
+
+  &__description-copy {
+    display: flex;
+    justify-content: center;
+
+    padding: 0 0 0 0;
+    text-align: center;
+
+    @include viewport(35rem) {
+      padding: 5% 0 0 0;
+    }
+
+    p {
+      width: 69%;
+
+      @include viewport(35rem) {
+        width: 45%;
+      }
+
+    }
+  }
 
 }
 
 .navigation {
+  position: fixed;
+  top: 0rem;
   display: flex;
   flex-direction: row;
   width: 100%;

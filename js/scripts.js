@@ -196,6 +196,10 @@ function setupStopButton() {
 };
 
 
+
+var svg  = document.querySelector(".header__description-logo-svg");
+var wave = document.querySelector(".header__description-logo-soundwave");
+
 setupSoundButtons();
 setupStopButton();
 setupVolumeSliders();
