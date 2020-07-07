@@ -144,17 +144,12 @@ function toggleButtonSounds(event) {
       soundboardAudio[buttonSound].sound.stop();
     }, fadeTimeout);
 
-    console.log("playing", currentVolume);
-
     event.currentTarget.querySelector('.sound-box__header').style.opacity = 0;
     event.currentTarget.querySelector('.sound-box__icon').style.opacity = 1;
     event.currentTarget.querySelector('.sound-box__volume').style.opacity = 0;
   } else {
     soundboardAudio[buttonSound].sound.play();
     soundboardAudio[buttonSound].sound.fade(0, currentVolume, 1000);
-
-    console.log(soundboardAudio[buttonSound].sound.playing());
-    console.log("stop", currentVolume);
 
     event.currentTarget.querySelector('.sound-box__header').style.opacity = 1;
     event.currentTarget.querySelector('.sound-box__icon').style.opacity = 0.1;
